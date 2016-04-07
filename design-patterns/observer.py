@@ -7,7 +7,7 @@ class Observer(object):
         return NotImplementedError
 
 
-class Subject(Observer):
+class Subject(object):
 
     def __init__(self):
         self.observers = []
